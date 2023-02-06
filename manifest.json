@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Window",
+    "action": {},
+    "version": "0.0",
+    "optional_permissions": ["tabs"],
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "service_worker.js"
+    }
+}
