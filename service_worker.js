@@ -10,7 +10,7 @@ function start(){
             if(json[0] != null)
                 for(var i = 0; i < json[0].length; i++)
                     translation += json[0][i][0];
-            w.innerHTML = '<div style = "position: fixed;top: 10px;right: 10px;left: 70%; background: #aef">'+ translation +'</div>';
+            w.innerHTML = '<div style = "position: fixed;top: 10px;right: 10px;left: 70%; background: #aef; z-index: 1000; color: black;">'+ translation +'</div>';
             document.body.append(w);
 		});
     };
